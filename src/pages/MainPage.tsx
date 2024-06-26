@@ -1,6 +1,6 @@
 import React from "react";
 // import {Link,Element} from 'react-scroll';
-// import ListPage from "./ListPage";
+import ListPage from "./ListPage";
 // import AboutMe from './AboutMe'
 // import SkillPage from "./SkillPage";
 // import Portfolio from "./Portfolio";
@@ -9,7 +9,7 @@ import React from "react";
 const MainPage: React.FC = () => {
     return(
        <div>
-        
+            <ListPage />
        </div>
     );
 };
