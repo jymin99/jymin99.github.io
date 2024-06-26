@@ -1,7 +1,7 @@
 import {Routes,Route} from "react-router-dom";
-import './index.css'
+import './index.css';
 import './App.css';
-import MainPage from './pages/MainPage'
+import MainPage from './pages/MainPage';
 
 
 function App() {
