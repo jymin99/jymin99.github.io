@@ -1,18 +1,21 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./src/**/*.{html,js}"],
+module.exports={
+  content: ['./src/**/*.{js,jsx,ts,tsx,css}','./index.html',],
   theme: {
-    extend: {
-      fontFamily:{
-        
+    extend:{
+      fontFamily: {
+        pre: ['Pretendard'],
+        mango: ['Mango'],
+        leferi: ['Leferi'],
+        mabeop: ['Mabeop'],
       },
-      colors:{
+      colors: {
         'primary': '#F6F0CF',
-        'secondary':'#202020',
-      }
-
+        'secondary': '#202020',
       }
     },
+    
+  },
   plugins: [],
-}
+};
 

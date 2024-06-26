@@ -5,46 +5,38 @@
 @font-face{
   font-family:'Pretendard';
   font-weight: 400;
-  src:local('Pretendard Regular'),
-  url("./fonts/Pretendard-Regular.otf") format('otf'),
+  src:url("./fonts/Pretendard-Regular.otf") format('otf');
 }
 @font-face{
   font-family:'Pretendard';
   font-weight: 700;
-  src:local('Pretendard Bold'),
-  url("./fonts/Pretendard-Bold.otf") format('otf'),
+  src:url("./fonts/Pretendard-Bold.otf") format('otf');
 }
 @font-face{
   font-family:'Pretendard';
   font-weight: 600;
-  src:local('Pretendard SemiBold'),
-  url("./fonts/Pretendard-Semibold.otf") format('otf'),
+  src:url("./fonts/Pretendard-Semibold.otf") format('otf');
 }
 @font-face{
   font-family: 'Mango';
   font-weight: 400;
-  src:local('mango bold'),
-  url('./fonts/mango-bold.ttf') format('ttf'),
+  src:url('./fonts/mango-bold.ttf') format('truetype');
 }
 @font-face{
   font-family: 'Mango';
   font-weight: 400;
-  src:local('mango reg'),
-  url('./fonts/mango-reg.ttf') format('ttf'),
+  src:url('./fonts/mango-reg.ttf') format('truetype');
 }
 @font-face{
   font-family: 'Mabeop';
   font-weight:400;
-  src:local('Mabeop'),
-  url('./fonts/Mabeop.ttf') format('ttf'),
+  src:url('./fonts/Mabeop.ttf') format('truetype');
 }
 @font-face{
   font-family: 'Leferi';
   font-weight: 800;
-  src: local('Leferi'),
-  url('./fonts/Leferi.ttf') format('ttf'),
+  src: url('./fonts/Leferi.ttf') format('truetype');
 }
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
