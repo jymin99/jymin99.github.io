@@ -11,13 +11,13 @@ const Button: React.FC<ButtonProps> = ({ title, navigate_page }) => {
         navigate(navigate_page);
     };
     return (
-        <div className="relative m-5">
-            <button className="relative inline-block z-10 top-2 bg-transparent font-mabeop text-[36px] w-max m-5 whitespace-nowrap ring-transparent" onClick={onClickMenu}>
-                <div className="relative">
+        <div className="relative m-auto">
+            <button className="relative inline-block z-10 top-2 bg-transparent font-mabeop text-4xl w-max m-5 whitespace-nowrap active:outline-none hover:border-primary" onClick={onClickMenu}>
+                <div className="absolute">
                     <span className="absolute text-white">
                         {title}
                     </span>
-                    <span className="absolute text-secondary" style={{top:'0.375rem', left:'0.375rem'}}>
+                    <span className="absolute text-black" style={{top:'0.5rem', left:'0.5rem'}}>
                         {title}
                     </span>
                 </div>
