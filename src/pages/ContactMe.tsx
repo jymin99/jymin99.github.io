@@ -3,7 +3,7 @@ import mypicture from "../assets/jym.png"
 
 const ContactMe: React.FC = () => {
     return (
-        <div className="h-screen w-screen bg-[#202020] flex flex-col pl-10 justify-between">
+        <div className="h-screen w-screen bg-[#202020] flex flex-col pl-10 pr-10 justify-between">
             <div>
                 <div className="font-leferi text-[#F6F0CF] text-[100px] text-start">
                     contact
@@ -34,7 +34,7 @@ const ContactMe: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <div className="font-leferi text-white text-[20px] text-end justify-end mb-10 mr-10">
+            <div className="font-leferi text-white text-[20px] text-end justify-end mb-10">
                 THANK YOU FOR WATCHING
             </div>
         </div>
