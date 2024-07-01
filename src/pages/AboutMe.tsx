@@ -15,16 +15,16 @@ const AboutMe: React.FC = () => {
             </div>
             {/* 설명부분*/}
             <div className="flex flex-col text-start flex-end mt-auto">
-                <div className="text-primary font-pre font-bold text-[25px]">
+                <div className="text-primary font-pre font-bold text-[25px] ">
                     프론트엔드 개발에 빠지다
                 </div>
-                <div className="max-w-[1000px] break-word text-[#F6F0CF] text-[20px] mb-10">
+                <div className="max-w-[1000px] break-word text-[#F6F0CF] text-[20px] mb-10 sm:mb-2">
                     관심있는 주제를 서비스로 구체화시키고 디자인한 것을 직접 개발을 통해 앱이나 웹같은 화면에 스스로 그려나가는 과정이 재밌어 프론트엔드를 공부하게 되었습니다.
                 </div>
                 <div className="text-primary font-pre font-bold text-[25px]">
                     가치관은 책임감
                 </div>
-                <div className="max-w-[1000px] break-word text-[#F6F0CF] text-[20px] mb-10">
+                <div className="max-w-[1000px] break-word text-[#F6F0CF] text-[20px] mb-10 sm:mb-2">
                     가장 중요하게 생각하는 것은 책임감입니다. 협업에서의 모든 태도는 책임감의 정도에서 나온다고 생각합니다. 따라서 모두가 각자의 책임감을 다했을 때 원활한 협업이 이루어진다고 생각하기 때문에 제가 가장 중요시하는 가치관은 책임감입니다.
                 </div>
                 <div className="text-primary font-pre font-bold text-[25px]">

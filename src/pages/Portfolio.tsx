@@ -5,7 +5,7 @@ const Portfolio: React.FC = () => {
     return (
         <div className="w-screen h-screen bg-secondary flex flex-col p-10">
             <div>
-                <div className="font-mabeop text-primary text-[80px] text-end mb-20">
+                <div className="font-mabeop text-primary text-[80px] text-end mb-20 sm:mb-2">
                     PORTFOLIO
                 </div>
                 <div className="flex flex-row justify-center font-leferi text-white text-[40px] ">

@@ -1,9 +1,9 @@
 import React from "react";
 import Button from "../components/Button";
 
-const ListPage: React.FC = () => {
+const ListPage: React.FC= () => {
   return (
-    <div className="relative p-10 w-screen h-screen justify-between bg-primary">
+    <div className="relative p-10 sm:p-5 w-screen h-screen justify-between bg-primary">
       {/* 왼쪽 목록 버튼-좌측 상단 배치 */}
       <div className="absolute top-0 left-0 flex flex-col space-y-4 ">
         <Button title="about me" navigate_page="/about" />
@@ -13,7 +13,7 @@ const ListPage: React.FC = () => {
       </div>
       {/* 이름-우측하단 배치 */}
       <div className="absolute right-0 top-0">
-        <div className="relative h-screen flex flex-col font-mabeop justify-end text-[60px] text-end">
+        <div className="relative h-screen flex flex-col font-mabeop justify-end text-[60px] sm:text-[50px] stext-end">
           <span
             className="z-0 absolute text-white"
             style={{ right: "14rem", bottom: "15rem" }}
