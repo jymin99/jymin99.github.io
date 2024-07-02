@@ -13,21 +13,21 @@ const ListPage: React.FC= () => {
       </div>
       {/* 이름-우측하단 배치 */}
       <div className="absolute right-0 top-0">
-        <div className="relative h-screen flex flex-col font-mabeop justify-end text-[60px] max-sm:text-[50px] text-end">
+        <div className="relative h-screen flex flex-col font-mabeop justify-end text-[170px] max-sm:text-[130px] text-end">
           <span
             className="z-0 absolute text-white"
-            style={{ right: "14rem", bottom: "15rem" }}
+            style={{ right: "4rem", bottom: "15rem" }}
           >
-            <h1>JAE</h1>
-            <h1>YEON</h1>
-            <h1>MIN</h1>
+            <div>JAE</div>
+            <div>YEON</div>
+            <div>MIN</div>
           </span>
           <span
             className="z-10 absolute text-black"
-            style={{ right: "13rem", bottom: "14rem" }}>
-            <h1>JAE</h1>
-            <h1>YEON</h1>
-            <h1>MIN</h1>
+            style={{ right: "3rem", bottom: "14rem" }}>
+            <div>JAE</div>
+            <div>YEON</div>
+            <div>MIN</div>
           </span>
           <div
             className="font-leferi text-white text-[60px] absolute max-sm:text-[50px]" style={{right:"3rem", bottom:"10rem", whiteSpace:"nowrap"}}>
