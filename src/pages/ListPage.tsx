@@ -13,7 +13,7 @@ const ListPage: React.FC= () => {
       </div>
       {/* 이름-우측하단 배치 */}
       <div className="absolute right-0 top-0">
-        <div className="relative h-screen flex flex-col font-mabeop justify-end text-[60px] sm:text-[50px] stext-end">
+        <div className="relative h-screen flex flex-col font-mabeop justify-end text-[60px] max-sm:text-[50px] text-end">
           <span
             className="z-0 absolute text-white"
             style={{ right: "14rem", bottom: "15rem" }}
@@ -30,7 +30,7 @@ const ListPage: React.FC= () => {
             <h1>MIN</h1>
           </span>
           <div
-            className="font-leferi text-white text-[60px] absolute " style={{right:"3rem", bottom:"10rem", whiteSpace:"nowrap"}}>
+            className="font-leferi text-white text-[60px] absolute max-sm:text-[50px]" style={{right:"3rem", bottom:"10rem", whiteSpace:"nowrap"}}>
             Frontend Developer
           </div>
         </div>
