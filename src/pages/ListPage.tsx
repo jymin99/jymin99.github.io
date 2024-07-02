@@ -13,7 +13,7 @@ const ListPage: React.FC= () => {
       </div>
       {/* 이름-우측하단 배치 */}
       <div className="absolute right-0 top-0">
-        <div className="relative h-screen flex flex-col font-mabeop justify-end text-[170px] max-sm:text-[130px] text-end">
+        <div className="relative h-screen flex flex-col font-mabeop justify-end text-[170px] max-2xl:text-[110px] text-end">
           <span
             className="z-0 absolute text-white"
             style={{ right: "4rem", bottom: "15rem" }}
