@@ -12,9 +12,17 @@ module.exports={
       colors: {
         'primary': '#F6F0CF',
         'secondary': '#202020',
+      },
+      keyframes:{
+        slideTop:{
+          from:{bottom:'0px'},
+          to:{bottom:'10px'},
+        }
       }
     },
-    
+    animation:{
+      actSlideTop:'slideTop 0.7s infinite'
+    }
   },
   plugins: [],
 };

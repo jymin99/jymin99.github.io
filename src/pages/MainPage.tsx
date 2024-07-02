@@ -13,6 +13,7 @@ const FullPage:React.FC=()=>{
         delay:900,
         navigation:false,
         scrollBar:false,
+        
     };
     return(
         <SectionsContainer {...options}>
