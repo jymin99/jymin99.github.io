@@ -24,6 +24,8 @@ module.exports={
       actSlideTop:'slideTop 0.7s infinite'
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 };
 

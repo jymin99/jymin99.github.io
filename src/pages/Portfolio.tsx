@@ -1,9 +1,14 @@
 import React from "react";
 import ModalButton from "../components/ModalButton";
+import Modal from "../components/Modal";
+
+
+
 
 const Portfolio: React.FC = () => {
     return (
         <div className="w-screen h-screen bg-secondary flex flex-col p-10">
+            <Modal/>
             <div>
                 <div className="font-mabeop text-primary text-[80px] text-end mb-20 sm:mb-2">
                     PORTFOLIO
@@ -36,7 +41,6 @@ const Portfolio: React.FC = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
