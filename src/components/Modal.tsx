@@ -50,10 +50,14 @@ const renderPeriod=(title:string)=>{
 const renderContent=(title:string)=>{
     switch(title){
         case "에브리뷰":
-            return(
+            return
                 <div>
                     <div className="font-semibold font-black font-pre text-xl">
                         tool(click link)
+                    </div>
+                    <div className="w-[25px] felx flex-row">
+                        <img src={dart} alt="dart_logo"/>
+                        dart
                     </div>
                     <div className="w-[25px] felx flex-row">
                         <img src={dart} alt="dart_logo"/>
