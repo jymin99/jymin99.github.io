@@ -1,6 +1,6 @@
 import React from "react";
-import { useDispatch } from "react-redux";
-import { openModal } from "../redux/modalSlice";
+// import { useDispatch } from "react-redux";
+// import { openModal } from "../redux/modalSlice";
 
 interface ModalButtonProps{
     title: string;
@@ -10,11 +10,11 @@ interface ModalButtonProps{
 }
 
 const ModalButton: React.FC<ModalButtonProps> = ({ title, type, detail, color }) => {
-    const dispatch=useDispatch();
+    // const dispatch=useDispatch();
 
     return (
         <button 
-        onClick={()=>dispatch(openModal(title))}
+        // onClick={()=>dispatch(openModal(title))}
         className={`bg-${color} hover:bg-${color} text-black hover:text-black w-[300px] h-100 p-5 border-transparent hover:border-transparent rounded-[20px] m-5`}
         >
             <div className="flex flex-col items-start text-left">

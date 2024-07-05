@@ -1,7 +1,6 @@
 import {Routes,Route} from "react-router-dom";
 import './index.css';
 import './App.css';
-// import MainPage from './pages/MainPage';
 import AboutMe from "./pages/AboutMe";
 import SkillPage from "./pages/SkillPage";
 import Portfolio from "./pages/Portfolio";

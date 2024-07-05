@@ -10,7 +10,7 @@ const FullPage:React.FC=()=>{
     const options={
         anchors:['1','2','3','4','5'],
         arrowNavigation: true,
-        delay:900,
+        delay:1500,
         navigation:false,
         scrollBar:false,
         
