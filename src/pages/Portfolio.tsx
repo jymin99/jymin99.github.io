@@ -13,7 +13,7 @@ const Portfolio: React.FC = () => {
                 <div className="font-mabeop text-primary text-end mb-20 sm:mb-2">
                     <div className=" text-[80px]">PORTFOLIO</div>
                     <a href="https://slender-silicon-607.notion.site/5849754feb0444b6a975c5c7ec9dc477" className="text-primary font-sans text-[25px] underline">
-                        프로젝트 포트폴리오 링크 바로가기(Click Me)
+                        프로젝트 정리 링크 바로가기(Click Me)
                     </a>
                 </div>
                 <div className="flex flex-row justify-center font-leferi text-white text-[40px] ">
