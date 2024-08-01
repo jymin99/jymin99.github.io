@@ -14,7 +14,7 @@ const ListPage: React.FC= () => {
       </div>
       {/* 이름-우측하단 배치 */}
       <div className="absolute right-0 top-0">
-        <div className="relative h-screen flex flex-col font-mabeop justify-end text-[170px] max-2xl:text-[110px] text-end">
+        <div className="relative h-screen flex flex-col font-mabeop justify-end text-[15vh] text-end">
           <span
             className="z-0 absolute text-white"
             style={{ right: "4rem", bottom: "7rem" }}
@@ -31,14 +31,14 @@ const ListPage: React.FC= () => {
             <div>MIN</div>
           </span>
           <div
-            className="font-leferi text-white text-[60px] absolute max-sm:text-[50px]" style={{right:"3rem", bottom:"5rem", whiteSpace:"nowrap"}}>
+            className="font-leferi text-white absolute text-[7vh]" style={{right:"3rem", bottom:"5rem", whiteSpace:"nowrap"}}>
             Frontend Developer
           </div>
         </div>
       </div>
       <div className="animate-actSlideTop flex flex-col absolute bottom-1 left-1/2">
-        <div className="font-mabeop text-[25px] text-[#BDB899]">scroll</div>
-        <img src={ScrollEmp} alt="scroll_emp" className="h-[44.44px] w-[69px]"/>
+        <div className="font-mabeop text-[3vh] text-[#BDB899]">scroll</div>
+        <img src={ScrollEmp} alt="scroll_emp" className="h-[5vh] w-[8vh]"/>
       </div>
     </div>
   );
